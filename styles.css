@@ -49,6 +49,8 @@ header h1 {
     height: auto;
     display: block;
     margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
 }
 
 footer {
@@ -56,4 +58,13 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+.company-goals li {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.company-goals h2 {
+    margin-bottom: 10px;
+    margin-left: 0;
 }
