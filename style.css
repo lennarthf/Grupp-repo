@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(0, 0, 0);
+    height: auto; 
+}
+#header {
+  background-color: rgb(46, 17, 41);
+    width: auto;
+    height: auto;
+    padding: 7px;
+}
+
+#outercontainer {
+    background-color: rgb(248, 230, 164);
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+h1 {text-align: center;
+  font-size: 40px;
+}
+
+p {font-size: x-large;
+  margin-top: 40px;
+  text-align: justify;
+}
+
+#home-img {
+  float: center;
+  width: 22%;
+  height: auto;
+  margin-right: 20px;
+}
+
+#footer {
+    background-color: rgb(46, 17, 41);
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+
+.topnav {
+    background-color: #129661;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 5px solid #005208;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.topnav a:hover {
+    background-color: #dddddd;
+    color: black;
+    border-radius: 12px;
+}
+
+
+.topnav a.active {
+    background-color: #2a2e2c;
+    color: white;
+    font-weight: bold;
+}
+
